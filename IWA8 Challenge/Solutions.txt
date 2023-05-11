@@ -1,0 +1,16 @@
+Why did the original code not work?
+The original code did not work because there were syntax errors in the object literal declarations for leo and sarah. Specifically, there were missing colons between the property names and values, missing commas between properties, and unquoted property names with hyphens. Additionally, some variables were misspelled, and there were no nested objects for addresses.
+
+What changes did you need to make to achieve the intended behavior?
+To achieve the intended behavior, I made the following changes:
+
+Added missing variables for leoSurname.
+Added nested objects for the addresses of leo and sarah.
+Fixed the syntax errors in the object literal declarations by adding colons between property names and values, adding commas between properties, and quoting property names with hyphens.
+Concatenated the first and last names of sarah with a space.
+Used quotes to access the hyphenated property names in the console.log statements.
+Why did the change result in the intended behavior?
+The changes I made to the code fixed the syntax errors and properly structured the object literals for leo and sarah, so that they could be logged to the console and their properties could be accessed. By adding nested objects for the addresses and using proper syntax for object literal properties, I was able to create the intended data structure and access it in the console.log statements.
+
+Are there any other ways in which it could have been solved?
+Yes, there are other ways to solve this problem. For example, instead of using object literals, we could have used constructor functions to create objects. We could also use object destructuring to assign values to object properties, or use a library like Lodash to manipulate and organize the data. However, for this particular exercise, using object literals was the most straightforward solution.
